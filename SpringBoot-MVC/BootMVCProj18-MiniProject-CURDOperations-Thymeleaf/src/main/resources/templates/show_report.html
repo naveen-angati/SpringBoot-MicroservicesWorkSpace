@@ -1,0 +1,33 @@
+<html xmlns:th="https://www.thymeleaf.org" >
+
+<h1  style="color:red;text-align:center"> Employee Report Page  </h1>
+  <div th:if="${!resultList.empty}">
+     <table  border="1" bgcolor="cyan"  align="center">
+       
+        <tr>  <th>EmpNo  </th> <th>EmpName  </th> <th>Emp Desg  </th> <th> Employee salary </th><th>operations </th> </tr>
+       
+       
+           <tr th:each="emp:${resultList}">
+              <td><span th:text="${emp.empno}"/></td>
+               <td><span th:text="${emp.ename}"/> </td>
+               <td><span th:text="${emp.job}"/> </td>
+               <td><span th:text="${emp.sal}"/> </td>
+               <td><a th:href="@{/employee/edit(no=${emp.empno})}"><img th:src="@{/images/edit.png}" width="25" height="25"></a>
+                       <a th:href="@{/employee/delete(no=${emp.empno})}" onclick="return confirm(' Are U sure delete the employee ')"><img th:src="@{/images/delete.jpg}" width="25" height="25"/></a>
+                  </td>
+           </tr>
+     </table>
+   </div>
+  <div  th:if="${resultList.empty}">
+      <h1  style="color:red;text-align:center"> Records  not found  </h1>
+  </div>
+  
+   <center>
+             <h1  style="color:green;text-align:center" th:text="${resultMsg}"/>
+   </center>
+   
+<center>
+<a th:href="@{/employee/}">home <img th:src="@{/images/home.jfif}" width="70" height="70"></a>  
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a th:href="@{/employee/add}">Add Employee<img th:src="@{/images/add.jpg}" width="70" height="70"></a>  
+</center>
