@@ -1,0 +1,46 @@
+2023-07-31 20:19:47.004  INFO [PAYMENT-SERVICE,,] 19980 --- [main] ServiceMsTargetMsZipkinSluethApplication : Starting BootMsProj13PaymentServiceMsTargetMsZipkinSluethApplication using Java 17.0.2 on DESKTOP-QENT2RN with PID 19980 (E:\Worskpaces\Spring\NTSPBMS616-MS\BootMSProj13-PaymentServiceMS-TargetMs-Zipkin-Slueth\target\classes started by NATARAJ in E:\Worskpaces\Spring\NTSPBMS616-MS\BootMSProj13-PaymentServiceMS-TargetMs-Zipkin-Slueth)
+2023-07-31 20:19:47.014  INFO [PAYMENT-SERVICE,,] 19980 --- [main] ServiceMsTargetMsZipkinSluethApplication : No active profile set, falling back to default profiles: default
+2023-07-31 20:19:48.476  INFO [PAYMENT-SERVICE,,] 19980 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ee655fdf-2a26-340c-8089-1d582ad78a3f
+2023-07-31 20:19:49.428  INFO [PAYMENT-SERVICE,,] 19980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9091 (http)
+2023-07-31 20:19:49.442  INFO [PAYMENT-SERVICE,,] 19980 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-31 20:19:49.443  INFO [PAYMENT-SERVICE,,] 19980 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-07-31 20:19:49.594  INFO [PAYMENT-SERVICE,,] 19980 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-31 20:19:49.596  INFO [PAYMENT-SERVICE,,] 19980 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2500 ms
+2023-07-31 20:19:50.618  WARN [PAYMENT-SERVICE,,] 19980 --- [main] o.s.c.s.a.z.ZipkinAutoConfiguration      : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out}]
+2023-07-31 20:19:52.037  INFO [PAYMENT-SERVICE,,] 19980 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-07-31 20:19:52.471  WARN [PAYMENT-SERVICE,,] 19980 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-07-31 20:19:52.568  INFO [PAYMENT-SERVICE,,] 19980 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-07-31 20:19:52.749  INFO [PAYMENT-SERVICE,,] 19980 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-07-31 20:19:52.760  INFO [PAYMENT-SERVICE,,] 19980 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-31 20:19:52.821  INFO [PAYMENT-SERVICE,,] 19980 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-07-31 20:19:52.821  INFO [PAYMENT-SERVICE,,] 19980 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-07-31 20:19:52.821  INFO [PAYMENT-SERVICE,,] 19980 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-07-31 20:19:52.821  INFO [PAYMENT-SERVICE,,] 19980 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-07-31 20:19:52.821  INFO [PAYMENT-SERVICE,,] 19980 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-07-31 20:19:52.821  INFO [PAYMENT-SERVICE,,] 19980 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-07-31 20:19:52.821  INFO [PAYMENT-SERVICE,,] 19980 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-07-31 20:19:53.507  INFO [PAYMENT-SERVICE,,] 19980 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-07-31 20:19:53.514  INFO [PAYMENT-SERVICE,,] 19980 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-07-31 20:19:53.524  INFO [PAYMENT-SERVICE,,] 19980 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-07-31 20:19:53.532  INFO [PAYMENT-SERVICE,,] 19980 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1690814993531 with initial instances count: 0
+2023-07-31 20:19:53.543  INFO [PAYMENT-SERVICE,,] 19980 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PAYMENT-SERVICE with eureka with status UP
+2023-07-31 20:19:53.544  INFO [PAYMENT-SERVICE,,] 19980 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1690814993544, current=UP, previous=STARTING]
+2023-07-31 20:19:53.549  INFO [PAYMENT-SERVICE,,] 19980 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/PAYMENT-SERVICE:42ccbca1438896d1155fd19e41569a42: registering service...
+2023-07-31 20:19:53.620  INFO [PAYMENT-SERVICE,,] 19980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9091 (http) with context path ''
+2023-07-31 20:19:53.621  INFO [PAYMENT-SERVICE,,] 19980 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9091
+2023-07-31 20:19:53.759  INFO [PAYMENT-SERVICE,,] 19980 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/PAYMENT-SERVICE:42ccbca1438896d1155fd19e41569a42 - registration status: 204
+2023-07-31 20:19:53.779  INFO [PAYMENT-SERVICE,,] 19980 --- [main] ServiceMsTargetMsZipkinSluethApplication : Started BootMsProj13PaymentServiceMsTargetMsZipkinSluethApplication in 7.295 seconds (JVM running for 7.773)
+2023-07-31 20:20:23.528  INFO [PAYMENT-SERVICE,,] 19980 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-07-31 20:20:23.529  INFO [PAYMENT-SERVICE,,] 19980 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-07-31 20:20:23.529  INFO [PAYMENT-SERVICE,,] 19980 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-07-31 20:20:23.529  INFO [PAYMENT-SERVICE,,] 19980 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-07-31 20:20:23.530  INFO [PAYMENT-SERVICE,,] 19980 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-07-31 20:20:23.530  INFO [PAYMENT-SERVICE,,] 19980 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2023-07-31 20:20:23.530  INFO [PAYMENT-SERVICE,,] 19980 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-07-31 20:20:23.555  INFO [PAYMENT-SERVICE,,] 19980 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-07-31 20:22:57.692  INFO [PAYMENT-SERVICE,,] 19980 --- [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-31 20:22:57.692  INFO [PAYMENT-SERVICE,,] 19980 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-31 20:22:57.694  INFO [PAYMENT-SERVICE,,] 19980 --- [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-31 20:22:57.758  INFO [PAYMENT-SERVICE,84acf3ab00a31e6e,0990241841fb9e16] 19980 --- [http-nio-9091-exec-1] c.n.p.PaymentServiceOperationsController : start of  getPaymentOptions() method
+2023-07-31 20:22:57.759  INFO [PAYMENT-SERVICE,84acf3ab00a31e6e,0990241841fb9e16] 19980 --- [http-nio-9091-exec-1] c.n.p.PaymentServiceOperationsController : end of  getPaymentOptions() method
+2023-07-31 20:24:52.833  INFO [PAYMENT-SERVICE,,] 19980 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
