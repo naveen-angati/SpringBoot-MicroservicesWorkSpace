@@ -1,0 +1,12 @@
+2023-05-21 10:42:54,312 INFO org.springframework.boot.StartupInfoLogger [main] Starting BootProj01DependencyInjectionApplication using Java 17.0.2 with PID 22224 (E:\Worskpaces\Spring\NTSPBMS616-Boot\BootProj01-Logging\target\classes started by NATARAJ in E:\Worskpaces\Spring\NTSPBMS616-Boot\BootProj01-Logging)   
+2023-05-21 10:42:54,313 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v3.0.0, Spring v6.0.2   
+2023-05-21 10:42:54,314 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"   
+2023-05-21 10:42:54,955 DEBUG com.nt.BootProj01DependencyInjectionApplication [main]  from  createDate() method   
+2023-05-21 10:42:55,140 INFO org.springframework.boot.StartupInfoLogger [main] Started BootProj01DependencyInjectionApplication in 1.482 seconds (process running for 1.817)   
+2023-05-21 10:42:55,148 INFO com.nt.BootProj01DependencyInjectionApplication [main] IOC container is created   
+2023-05-21 10:42:55,148 DEBUG com.nt.sbeans.SeasonFinder [main]   start of  findSeason method   
+2023-05-21 10:42:55,149 DEBUG com.nt.sbeans.SeasonFinder [main]   end of  findSeason method   
+2023-05-21 10:42:55,149 INFO com.nt.BootProj01DependencyInjectionApplication [main] B.method is invoked   
+2023-05-21 10:42:55,155 INFO com.nt.BootProj01DependencyInjectionApplication [main] IOC container is closed   
+2023-05-21 10:42:55,156 DEBUG com.nt.BootProj01DependencyInjectionApplication [main] End of main(-) method   
+2023-05-21 10:42:55,156 TRACE com.nt.BootProj01DependencyInjectionApplication [main] Application is about to complete   

@@ -1,0 +1,12 @@
+2023-05-21T10:23:43.707+05:30  INFO 15372 --- [main] BootProj01DependencyInjectionApplication : Starting BootProj01DependencyInjectionApplication using Java 17.0.2 with PID 15372 (E:\Worskpaces\Spring\NTSPBMS616-Boot\BootProj01-Logging\target\classes started by NATARAJ in E:\Worskpaces\Spring\NTSPBMS616-Boot\BootProj01-Logging)
+2023-05-21T10:23:43.709+05:30 DEBUG 15372 --- [main] BootProj01DependencyInjectionApplication : Running with Spring Boot v3.0.0, Spring v6.0.2
+2023-05-21T10:23:43.710+05:30  INFO 15372 --- [main] BootProj01DependencyInjectionApplication : No active profile set, falling back to 1 default profile: "default"
+2023-05-21T10:23:44.167+05:30 DEBUG 15372 --- [main] BootProj01DependencyInjectionApplication :  from  createDate() method
+2023-05-21T10:23:44.274+05:30  INFO 15372 --- [main] BootProj01DependencyInjectionApplication : Started BootProj01DependencyInjectionApplication in 0.982 seconds (process running for 1.302)
+2023-05-21T10:23:44.278+05:30  INFO 15372 --- [main] BootProj01DependencyInjectionApplication : IOC container is created
+2023-05-21T10:23:44.279+05:30 DEBUG 15372 --- [main] com.nt.sbeans.SeasonFinder               :   start of  findSeason method
+2023-05-21T10:23:44.280+05:30 DEBUG 15372 --- [main] com.nt.sbeans.SeasonFinder               :   end of  findSeason method
+2023-05-21T10:23:44.280+05:30  INFO 15372 --- [main] BootProj01DependencyInjectionApplication : B.method is invoked
+2023-05-21T10:23:44.286+05:30  INFO 15372 --- [main] BootProj01DependencyInjectionApplication : IOC container is closed
+2023-05-21T10:23:44.286+05:30 DEBUG 15372 --- [main] BootProj01DependencyInjectionApplication : End of main(-) method
+2023-05-21T10:23:44.286+05:30 TRACE 15372 --- [main] BootProj01DependencyInjectionApplication : Application is about to complete
